@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Casa Style</title> <!-- Nom du magasin -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Firebase pour base de données (optionnel) -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js"></script>
+</head>
+<body>
+
+<!-- Header : logo + nom du magasin -->
+<header>
+  <img src="logo.png" alt="Logo du magasin" width="150">
+  <h1>Casa Style</h1>
+</header>
+
+<!-- Section des produits -->
+<h2>Nos Produits</h2>
+<div id="produits"></div>
+
+<!-- Section du panier -->
+<h2>Panier</h2>
+<div id="panier"></div>
+
+<!-- Script principal -->
+<script src="script.js"></script>
+
+</body>
+</html>
