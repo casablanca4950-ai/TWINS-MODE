@@ -77,3 +77,13 @@ function envoyerCommande(nomClient, adresse) {
   .catch(err => console.error(err));
 }
 
+let message = `Commande :
+Produit : ${produit}
+Nom : ${nom}
+Adresse : ${adresse}
+Téléphone : ${tel}`;
+
+  window.open(
+    "https://wa.me/212662401126?text=" + encodeURIComponent(message)
+  );
+}
